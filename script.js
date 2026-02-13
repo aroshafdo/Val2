@@ -5,10 +5,10 @@ let yesCount = 0;
 // Questions array
 const questions = [
     "Are you absolutely sure? 🥺",
-    "But think about all the chocolates! Still? 🍫",
-    "And the roses! Still? 🌹",
+    "But think about all the chocolates!  🍫",
+    "And the roses!  🌹",
     "And the romantic dates! 🍝",
-    "One last chance to change your mind? Still dont want to? 💕"
+    "One last chance to change your mind? 💕"
 ];
 
 // DOM Elements
