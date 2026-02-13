@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>For My Valentine Shimi 💝</title>
+    <link rel="stylesheet" href="valentine-style.css">
+</head>
+<body>
+<!-- Floating Hearts Background -->
+<div class="floating-hearts"></div>
+
+<!-- Main Container -->
+<div class="main-container">
+    <!-- Left Side - Image Carousel -->
+    <div class="carousel-section">
+        <div class="carousel-container">
+            <div class="carousel-track" id="carouselTrack"></div>
+
+            <!-- Navigation Dots -->
+            <div class="carousel-dots" id="carouselDots"></div>
+
+            <!-- Date Display -->
+            <div class="carousel-date" id="carouselDate"></div>
+
+            <!-- Navigation Arrows -->
+            <button class="carousel-arrow prev" id="prevBtn">❮</button>
+            <button class="carousel-arrow next" id="nextBtn">❯</button>
+        </div>
+    </div>
+
+    <!-- Center - Main Message -->
+    <div class="message-section">
+        <div class="glass-content">
+            <h1 class="main-quote">💖 For Shimi 💖</h1>
+
+            <div class="special-message">
+                <p class="message-text">
+                    I don't really know how to put this perfectly, but I'm really grateful for you.
+                    You make my days better without even trying. Talking to you feels easy,
+                    being around you feels right, and honestly, I just feel lucky to have you in my life.
+                    No big dramatic words — I just care about you a lot, and I'm really happy it's you.
+                    <span class="love-signature">Love you Shimi ❤️</span>
+                </p>
+            </div>
+
+            <div class="floating-cards">
+                <div class="card">
+                    <span class="card-icon">💖</span>
+                    <span>You + Me = ❤️</span>
+                </div>
+                <div class="card">
+                    <span class="card-icon">💕</span>
+                    <span>My heart is yours</span>
+                </div>
+                <div class="card">
+                    <span class="card-icon">💗</span>
+                    <span>Love you endlessly</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Side - Floating Quotes -->
+    <div class="quotes-section">
+        <div class="quotes-scroll">
+            <div class="quotes-container" id="quotesContainer"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Image Modal -->
+<div class="modal" id="imageModal">
+    <span class="modal-close">&times;</span>
+    <div class="modal-content">
+        <img class="modal-image" id="modalImage" src="" alt="Memory">
+        <div class="modal-info" id="modalInfo"></div>
+        <button class="modal-prev">❮</button>
+        <button class="modal-next">❯</button>
+    </div>
+</div>
+
+<script src="valentine-script.js"></script>
+</body>
+</html>

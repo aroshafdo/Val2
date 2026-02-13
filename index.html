@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine? 💝</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="floating-hearts"></div>
+
+<div class="container" id="landingPage">
+    <div class="content">
+        <h1 class="main-message">Will you be my Valentine? 💕</h1>
+
+        <div class="button-container">
+            <button class="btn btn-yes" id="yesBtn">Yes 💖</button>
+            <button class="btn btn-no" id="noBtn">No 💔</button>
+        </div>
+    </div>
+</div>
+
+<div class="container hidden" id="questionsPage">
+    <div class="content">
+        <h2 id="questionText" class="question-text"></h2>
+
+        <div class="button-container">
+            <button class="btn btn-yes" id="questionYesBtn">Yes 💖</button>
+            <button class="btn btn-no" id="questionNoBtn">No 💔</button>
+        </div>
+
+        <div class="question-counter" id="questionCounter"></div>
+    </div>
+</div>
+
+<div class="container hidden" id="loadingPage">
+    <div class="content loading-content">
+        <div class="loader"></div>
+        <p class="loading-text">Loading something special for you...</p>
+        <div class="floating-hearts-small"></div>
+    </div>
+</div>
+
+<div class="container hidden" id="destinyPage">
+    <div class="content">
+        <h2 class="destiny-message">Sorry... you have already officially selected yourself as my Valentine 😌💖</h2>
+        <button class="btn btn-accept" id="acceptDestinyBtn">Click here to accept your destiny ✨</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
